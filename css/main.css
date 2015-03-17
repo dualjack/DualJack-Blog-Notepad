@@ -1,0 +1,258 @@
+/* -------------
+* PODSTAWY
+* ---------- */
+
+body {
+color:black;
+background:white;
+margin: 0px;
+padding: 0px; 
+font: 14px Verdana, Sans-serif;
+}
+
+a {
+text-decoration: none;
+color: #455A82; }
+
+a:hover {
+text-decoration: underline;
+color: #004887; }
+
+img {
+border: 0px;
+}
+
+*:focus {
+outline: 0;
+}
+
+textarea {
+width: 100%;
+}
+
+input {
+font-size: 14px;
+padding: 5px;
+}
+
+/* ---------------------
+ * centrowanie obiektów
+ * ------------------- */
+ 
+.center {
+margin-left:auto;
+margin-right:auto;
+width:800px;
+}
+
+
+/* -------------
+ * MAIN DIV
+ * ---------- */
+
+.main_content {
+padding:20px 10px 20px 10px;
+color:black;
+font-size:14px;
+font-family:Verdana;
+line-height:20px;
+text-align:justify;
+
+margin-left:auto;
+margin-right:auto;
+width:800px;
+}
+
+.main_content h1 {
+margin:20px 0px 20px auto;
+padding:0px;
+font-size:23px;
+}
+
+.main_content h2 {
+margin:40px 0px 20px auto;
+padding:0px;
+font-size:18px;
+}
+
+.main_content ul li {
+margin:10px;
+}
+
+
+/* -------------
+ * HEAD
+ * ---------- */
+
+.head {
+width:100%;
+height:40px;
+background:url('../images/backgrounds/smooth_2_up.png') top repeat-x #4E4E4E;
+border-bottom:3px solid #2B2B2B;
+box-shadow: 0px 5px 27px rgba(0,0,0,0.5);
+}
+
+.head a.menu {
+color:silver;
+display:block;
+line-height:40px;
+margin:0px;
+padding:0px 20px 0px 20px;
+font-size:12px;
+float:right;
+text-decoration:none;
+text-shadow:1px 1px 1px black;
+border-left:1px solid rgba(0,0,0,0.2);
+background:rgba(0,0,0,0.05);
+}
+
+.head a.menu:hover {
+color:white;
+background:rgba(0,0,0,0.1);
+}
+
+.head a.menu:active {
+background:rgba(255,255,255,0.1);
+}
+
+.head a.menu.active {
+font-weight:bold;
+color:white;
+background:rgba(0,0,0,0.1);
+}
+
+.head a.menu.active:hover {
+cursor:default;
+}
+
+.head .logo {
+margin-top:12px;
+}
+
+
+/* -------------
+ * BANNER
+ * ---------- */
+
+.banner .cover {
+width:100%;
+height:200px;
+background:url('../images/backgrounds/banner_cover.png') no-repeat center;
+}
+
+.banner {
+width:100%;
+height:200px;
+background:url('../images/backgrounds/banner_2.jpg') no-repeat center;
+border-bottom:1px solid gray;
+box-shadow: 0px 5px 27px silver;
+}
+
+
+/* -------------
+ * FOOTER
+ * ---------- */
+ 
+.footer {
+padding:30px;
+margin:30px auto 20px auto;
+border-top:1px solid gray;
+color:gray;
+}
+
+
+/* -------------
+ * ERRORS
+ * ---------- */
+
+.error_page {
+padding:50px;
+text-align:center;
+}
+
+.error_page .title {
+font-size:30px;
+font-weight:bold;
+color:white;
+text-shadow:-2px -2px 1px black, 2px 2px 3px gray;
+}
+
+.error_page .description {
+font-size:15px;
+color:black;
+display:block;
+margin-top:20px;
+}
+
+
+/* -------------
+ * GALLERY
+ * ---------- */
+
+.gallery_row {
+border-bottom:1px solid gray;
+padding:10px 0px 10px 0px;
+overflow:auto;
+}
+
+.gallery_row .cover {
+float:left;
+box-shadow:3px 3px 10px silver;
+margin:0px 30px 5px 0px;
+width:200px;
+height:150px;
+}
+
+.gallery_row .title {
+display:block;
+font-size:15px;
+font-weight:bold;
+margin:10px 0px 10px 0px;
+color:#416591;
+}
+
+.gallery_row .description {
+display:block;
+font-size:12px;
+}
+
+
+.gallery_wall {
+overflow:auto;
+}
+
+.gallery_wall .title {
+display:block;
+font-size:15px;
+font-weight:bold;
+margin:10px 0px 10px 0px;
+color:#696F75;
+}
+
+.gallery_wall .title .name {
+color:#416591;
+font-style:italic;
+}
+
+.gallery_wall .description {
+font-size:13px;
+color:Gray;
+text-align:justify;
+margin-bottom:20px;
+}
+
+.gallery_wall .item {
+display:block;
+float:left;
+}
+
+.gallery_wall .item .thumb {
+max-width:170px;
+height:auto;
+margin:10px;
+box-shadow:3px 3px 10px silver;
+}
+
+.gallery_wall .item .thumb:hover {
+box-shadow:3px 3px 10px gray;
+}
